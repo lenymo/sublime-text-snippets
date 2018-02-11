@@ -1,0 +1,15 @@
+<snippet>
+  <content><![CDATA[
+if ( have_rows('$1') ):
+  while ( have_rows('$1') ) : the_row();
+
+    \$$2 = get_sub_field('$2');
+
+  endwhile;
+endif;
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>acfrep</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.php</scope>
+</snippet>

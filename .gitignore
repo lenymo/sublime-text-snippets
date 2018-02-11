@@ -1,0 +1,22 @@
+# Mac OS X files
+.DS_Store
+ehthumbs.db
+Thumbs.db
+
+.sass-cache
+bower_components/
+node_modules/
+
+# ignore Editor files
+*.sublime-project
+*.sublime-workspace
+
+# ignore packaged files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
